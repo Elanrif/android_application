@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyFirstapplication</string>
+    <string name="welcome_msg">Bienvenu dans mon application du futur</string>
+    <string name="points_mag">Point : 0</string>
+    <string name="btnname">Button</string>
+</resources>
