@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center">
-
+    <!--  android:gravity="center" ; pour centré tout les enfants-->
+    <!--  match_parent , wrap_content : par rapport au parent , par rapport au contenu-->
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -17,6 +18,7 @@
         android:text="@string/welcome_msg"
 
         />
+    <!-- android:layout_gravity="center" ; centré le contenu d'un composant View -->
 
     <Button
         android:id="@+id/play"
@@ -27,4 +29,5 @@
         android:layout_marginTop="30dp"
         android:paddingHorizontal="70dp"
         />
+    <!-- layout_margin et layout_padding ; margin et padding de CSS-->
 </LinearLayout>
